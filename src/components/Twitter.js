@@ -3,7 +3,7 @@ import React from 'react'
 export default function Twitter({ quotes, number}) {
 
   function handleClickTwitter() {
-    const tweetQuote = "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22" + quotes[number][1] + "%22" + " -" + quotes[number][0];
+    const tweetQuote = `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="${quotes[number][1]}" -${quotes[number][0]}`;
     window.open(tweetQuote, '_blank')
   }
   return (
