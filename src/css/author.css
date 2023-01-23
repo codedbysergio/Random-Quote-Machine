@@ -1,0 +1,7 @@
+.author {
+    text-align: right;
+    margin: 18px 40px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: var(--maincolor);
+    font-size: larger;
+}

@@ -1,0 +1,9 @@
+.facebook {
+    display: inline-block;
+}
+
+#post-quote {
+    text-align: center;
+    width: 50px;
+    vertical-align: middle;
+}

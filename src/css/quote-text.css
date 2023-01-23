@@ -1,0 +1,6 @@
+.quote-text {
+    text-align: center;
+    font-size: x-large;
+    color: var(--maincolor);
+    padding: 40px 35px 15px 35px;
+}

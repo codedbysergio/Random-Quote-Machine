@@ -1,0 +1,29 @@
+  .buttons {
+    display: block;
+    margin: auto;
+    width: 87%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .button {
+    color: beige;
+    display: inline-block;
+    background-color: var(--maincolor);
+    border: none;
+    line-height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    color: midnightblue;
+  }
+  
+  .fa-brands {
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+  }
+  

@@ -1,0 +1,40 @@
+/* @import-normalize; */
+@import 'author.css';
+@import 'buttons.css';
+@import 'credit.css';
+@import 'facebook.css';
+@import 'new-quote.css';
+@import 'quote-text.css';
+@import 'twitter.css';
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,500&display=swap");
+
+:root {
+  --maincolor: green;
+}
+
+html, body {
+  height: 100%vh;
+  width: 100%vh;
+  background-color: var(--maincolor);
+}
+
+.App {
+  background-color: var(--maincolor);
+  position: absolute;
+  width: 55%;
+  top: 48%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.machine-container {
+  font-family: "Fira Sans Condensed", sans-serif;
+  background-color: beige;
+  position: relative;
+  border-radius: 7px;
+}
+
+.credit-container {
+  width: 100%;
+}

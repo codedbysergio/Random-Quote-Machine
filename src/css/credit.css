@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,500&display=swap");
+
+.credit {
+    font-family: "Fira Sans Condensed", sans-serif;
+    text-align: center;
+    color: beige;
+    padding: 10px 0px;
+}

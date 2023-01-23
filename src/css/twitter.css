@@ -1,0 +1,10 @@
+.twitter {
+    display: inline-block;
+}
+
+#tweet-quote {
+    text-align: center;
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
